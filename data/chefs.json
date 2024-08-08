@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "name": "Paul Bocuse",
+        "list_of_recipes": [
+            "Soupe aux Truffes V.G.E.",
+            "Bocuse d'Or",
+            "Pike Quenelles",
+            "Boeuf Bourguignon"
+        ],
+        "experience": "50 years",
+        "ratings": 4.9,
+        "restaurant": "L'Auberge du Pont de Collonges",
+        "award": [
+            "Meilleur Ouvrier de France",
+            "Chevalier de la Légion d'Honneur"
+        ],
+        "image_link": "https://example.com/paul_bocuse.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 2,
+        "name": "Alain Ducasse",
+        "list_of_recipes": [
+            "Tarte Tatin",
+            "Ratatouille",
+            "Seafood Bouillabaisse",
+            "Duck Confit"
+        ],
+        "experience": "40 years",
+        "ratings": 4.8,
+        "restaurant": "Le Louis XV",
+        "award": [
+            "3 Michelin Stars",
+            "World's 50 Best Restaurants"
+        ],
+        "image_link": "https://example.com/alain_ducasse.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 3,
+        "name": "Joël Robuchon",
+        "list_of_recipes": [
+            "Mashed Potatoes",
+            "Truffle Ravioli",
+            "Lobster Thermidor",
+            "Foie Gras"
+        ],
+        "experience": "45 years",
+        "ratings": 4.9,
+        "restaurant": "L'Atelier de Joël Robuchon",
+        "award": [
+            "32 Michelin Stars",
+            "Gault Millau Chef of the Year"
+        ],
+        "image_link": "https://example.com/joel_robuchon.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 4,
+        "name": "Éric Ripert",
+        "list_of_recipes": [
+            "Seared Tuna",
+            "Lobster Salad",
+            "Bouillabaisse"
+        ],
+        "experience": "35 years",
+        "ratings": 4.7,
+        "restaurant": "Le Bernardin",
+        "award": [
+            "4 Michelin Stars",
+            "James Beard Award"
+        ],
+        "image_link": "https://example.com/eric_ripert.jpg",
+        "recipe_count": 3
+    },
+    {
+        "id": 5,
+        "name": "Pierre Gagnaire",
+        "list_of_recipes": [
+            "Pigeon with Truffle",
+            "Lobster with Saffron",
+            "Foie Gras",
+            "Crab Salad"
+        ],
+        "experience": "30 years",
+        "ratings": 4.6,
+        "restaurant": "Pierre Gagnaire",
+        "award": [
+            "3 Michelin Stars",
+            "Best Chef in France"
+        ],
+        "image_link": "https://example.com/pierre_gagnaire.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 6,
+        "name": "Anne-Sophie Pic",
+        "list_of_recipes": [
+            "Ravioli of Langoustine",
+            "Duck Breast with Beetroots",
+            "Miso Soup",
+            "Rose Water Macarons"
+        ],
+        "experience": "25 years",
+        "ratings": 4.7,
+        "restaurant": "Maison Pic",
+        "award": [
+            "3 Michelin Stars",
+            "Best Female Chef"
+        ],
+        "image_link": "https://example.com/anne_sophie_pic.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 7,
+        "name": "Yannick Alléno",
+        "list_of_recipes": [
+            "Beef Wellington",
+            "Lamb Rack",
+            "Crispy Duck",
+            "Potato Gratin"
+        ],
+        "experience": "28 years",
+        "ratings": 4.8,
+        "restaurant": "Le Pavillon Ledoyen",
+        "award": [
+            "3 Michelin Stars",
+            "Chef of the Year"
+        ],
+        "image_link": "https://example.com/yannick_alleno.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 8,
+        "name": "Hélène Darroze",
+        "list_of_recipes": [
+            "Foie Gras Terrine",
+            "Roasted Monkfish",
+            "Chocolate Soufflé",
+            "Lobster Ravioli"
+        ],
+        "experience": "22 years",
+        "ratings": 4.6,
+        "restaurant": "Hélène Darroze",
+        "award": [
+            "2 Michelin Stars",
+            "Best Female Chef"
+        ],
+        "image_link": "https://example.com/helene_darroze.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 9,
+        "name": "Dominique Crenn",
+        "list_of_recipes": [
+            "Crispy Rice Cake",
+            "Beet Salad",
+            "Miso Glazed Eggplant",
+            "Quinoa and Vegetables"
+        ],
+        "experience": "20 years",
+        "ratings": 4.8,
+        "restaurant": "Atelier Crenn",
+        "award": [
+            "3 Michelin Stars",
+            "Best Chef in America"
+        ],
+        "image_link": "https://example.com/dominique_crenn.jpg",
+        "recipe_count": 4
+    },
+    {
+        "id": 10,
+        "name": "Jean-Georges Vongerichten",
+        "list_of_recipes": [
+            "Crab Salad",
+            "Wagyu Beef",
+            "Crispy Skin Chicken",
+            "Vanilla Bean Panna Cotta"
+        ],
+        "experience": "35 years",
+        "ratings": 4.7,
+        "restaurant": "Jean-Georges",
+        "award": [
+            "3 Michelin Stars",
+            "Best New York Chef"
+        ],
+        "image_link": "https://example.com/jean_georges.jpg",
+        "recipe_count": 4
+    }
+]

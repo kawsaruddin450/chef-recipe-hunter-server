@@ -1,0 +1,839 @@
+[
+    {
+        "id": 1,
+        "chef_id": 1,
+        "name": "Soupe aux Truffes V.G.E.",
+        "description": "A luxurious soup made with truffles and served with a pastry crust.",
+        "ingredients": [
+            "Truffles",
+            "Veal stock",
+            "Eggs",
+            "Butter",
+            "Pastry dough"
+        ],
+        "prep_time": "1 hour",
+        "cook_time": "30 minutes",
+        "instructions": [
+            "Prepare the veal stock and set aside.",
+            "Clean and slice the truffles.",
+            "Mix the truffles with the veal stock and heat gently.",
+            "Prepare the pastry dough and place it over the soup.",
+            "Bake until the pastry is golden brown."
+        ],
+        "image_link": "https://example.com/images/soupe_aux_truffes.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 2,
+        "chef_id": 1,
+        "name": "Bocuse d'Or",
+        "description": "A prestigious dish created for the Bocuse d'Or culinary competition.",
+        "ingredients": [
+            "Various meats",
+            "Vegetables",
+            "Sauces",
+            "Seasonings"
+        ],
+        "prep_time": "2 hours",
+        "cook_time": "3 hours",
+        "instructions": [
+            "Prepare and cook the meats according to the competition guidelines.",
+            "Prepare various sauces and side dishes.",
+            "Assemble the dish with precision and artistic presentation."
+        ],
+        "image_link": "https://example.com/images/bocuse_dor.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 3,
+        "chef_id": 1,
+        "name": "Pike Quenelles",
+        "description": "Light and fluffy pike fish dumplings served with a creamy sauce.",
+        "ingredients": [
+            "Pike fish",
+            "Eggs",
+            "Cream",
+            "Butter",
+            "Flour"
+        ],
+        "prep_time": "45 minutes",
+        "cook_time": "20 minutes",
+        "instructions": [
+            "Prepare the pike fish and blend with eggs and cream.",
+            "Form the mixture into quenelles and cook in boiling water.",
+            "Serve with a creamy sauce."
+        ],
+        "image_link": "https://example.com/images/pike_quenelles.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 4,
+        "chef_id": 1,
+        "name": "Boeuf Bourguignon",
+        "description": "A classic French stew made with beef braised in red wine.",
+        "ingredients": [
+            "Beef",
+            "Red wine",
+            "Carrots",
+            "Onions",
+            "Garlic",
+            "Bacon"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "3 hours",
+        "instructions": [
+            "Brown the beef and bacon in a pot.",
+            "Add chopped vegetables and garlic.",
+            "Pour in red wine and simmer until the beef is tender."
+        ],
+        "image_link": "https://example.com/images/boeuf_bourguignon.jpg",
+        "ratings": 4.6
+    },
+    {
+        "id": 5,
+        "chef_id": 2,
+        "name": "Tarte Tatin",
+        "description": "An upside-down caramelized apple tart.",
+        "ingredients": [
+            "Apples",
+            "Sugar",
+            "Butter",
+            "Puff pastry"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "45 minutes",
+        "instructions": [
+            "Caramelize the sugar and butter in a pan.",
+            "Add apple slices and cook until tender.",
+            "Cover with puff pastry and bake until golden brown."
+        ],
+        "image_link": "https://example.com/images/tarte_tatin.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 6,
+        "chef_id": 2,
+        "name": "Ratatouille",
+        "description": "A vegetable stew from Provence.",
+        "ingredients": [
+            "Eggplant",
+            "Zucchini",
+            "Bell peppers",
+            "Tomatoes",
+            "Onions",
+            "Garlic"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "40 minutes",
+        "instructions": [
+            "Chop all vegetables into chunks.",
+            "Sauté onions and garlic, then add the vegetables.",
+            "Simmer until all vegetables are tender."
+        ],
+        "image_link": "https://example.com/images/ratatouille.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 7,
+        "chef_id": 2,
+        "name": "Seafood Bouillabaisse",
+        "description": "A traditional Provençal fish stew with a variety of seafood.",
+        "ingredients": [
+            "Fish",
+            "Shellfish",
+            "Tomatoes",
+            "Fennel",
+            "Saffron"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "1 hour",
+        "instructions": [
+            "Prepare the seafood and set aside.",
+            "Cook tomatoes, fennel, and spices in a pot.",
+            "Add seafood and simmer until cooked through."
+        ],
+        "image_link": "https://example.com/images/seafood_bouillabaisse.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 8,
+        "chef_id": 2,
+        "name": "Duck Confit",
+        "description": "Slow-cooked duck leg preserved in its own fat.",
+        "ingredients": [
+            "Duck legs",
+            "Duck fat",
+            "Garlic",
+            "Thyme",
+            "Salt"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "2 hours",
+        "instructions": [
+            "Season duck legs with salt and herbs.",
+            "Submerge in duck fat and cook slowly until tender."
+        ],
+        "image_link": "https://example.com/images/duck_confit.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 9,
+        "chef_id": 3,
+        "name": "Mashed Potatoes",
+        "description": "Rich and creamy mashed potatoes.",
+        "ingredients": [
+            "Potatoes",
+            "Butter",
+            "Cream",
+            "Salt",
+            "Pepper"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "instructions": [
+            "Boil potatoes until tender.",
+            "Mash with butter and cream.",
+            "Season with salt and pepper."
+        ],
+        "image_link": "https://example.com/images/mashed_potatoes.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 10,
+        "chef_id": 3,
+        "name": "Truffle Ravioli",
+        "description": "Pasta stuffed with a luxurious truffle filling.",
+        "ingredients": [
+            "Ravioli dough",
+            "Truffles",
+            "Ricotta cheese",
+            "Eggs",
+            "Parmesan cheese"
+        ],
+        "prep_time": "1 hour",
+        "cook_time": "5 minutes",
+        "instructions": [
+            "Prepare the ravioli dough and filling.",
+            "Form ravioli and cook in boiling water.",
+            "Serve with a light sauce."
+        ],
+        "image_link": "https://example.com/images/truffle_ravioli.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 11,
+        "chef_id": 3,
+        "name": "Lobster Thermidor",
+        "description": "Lobster meat cooked in a creamy wine sauce and served in the shell.",
+        "ingredients": [
+            "Lobster",
+            "Cream",
+            "White wine",
+            "Mushrooms",
+            "Cheese"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "20 minutes",
+        "instructions": [
+            "Cook lobster and remove meat from shells.",
+            "Prepare a creamy sauce with wine and cheese.",
+            "Mix lobster meat with the sauce and return to the shell."
+        ],
+        "image_link": "https://example.com/images/lobster_thermidor.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 12,
+        "chef_id": 3,
+        "name": "Foie Gras",
+        "description": "A rich and buttery liver pâté.",
+        "ingredients": [
+            "Foie gras",
+            "Salt",
+            "Pepper",
+            "Cognac"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "30 minutes",
+        "instructions": [
+            "Season foie gras with salt and pepper.",
+            "Sear in a hot pan and deglaze with Cognac.",
+            "Serve as a pâté or mousse."
+        ],
+        "image_link": "https://example.com/images/foie_gras.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 13,
+        "chef_id": 4,
+        "name": "Seared Tuna",
+        "description": "Tuna steaks seared to perfection and served with a sauce.",
+        "ingredients": [
+            "Tuna steaks",
+            "Olive oil",
+            "Soy sauce",
+            "Ginger",
+            "Garlic"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "5 minutes",
+        "instructions": [
+            "Season tuna steaks and sear in a hot pan.",
+            "Prepare a sauce with soy sauce, ginger, and garlic.",
+            "Serve tuna with the sauce."
+        ],
+        "image_link": "https://example.com/images/seared_tuna.jpg",
+        "ratings": 4.6
+    },
+    {
+        "id": 14,
+        "chef_id": 4,
+        "name": "Lobster Salad",
+        "description": "A refreshing salad featuring lobster meat.",
+        "ingredients": [
+            "Lobster",
+            "Mixed greens",
+            "Avocado",
+            "Citrus dressing"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "5 minutes",
+        "instructions": [
+            "Combine lobster meat with mixed greens and avocado.",
+            "Dress with citrus dressing."
+        ],
+        "image_link": "https://example.com/images/lobster_salad.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 15,
+        "chef_id": 4,
+        "name": "Beef Tartare",
+        "description": "Raw beef seasoned and served with capers and onions.",
+        "ingredients": [
+            "Beef",
+            "Egg yolk",
+            "Capers",
+            "Onions",
+            "Mustard"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "0 minutes",
+        "instructions": [
+            "Finely chop the beef and mix with seasonings.",
+            "Form into patties and serve with an egg yolk on top."
+        ],
+        "image_link": "https://example.com/images/beef_tartare.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 16,
+        "chef_id": 5,
+        "name": "Pigeon with Truffle",
+        "description": "Roasted pigeon served with a truffle sauce.",
+        "ingredients": [
+            "Pigeon",
+            "Truffles",
+            "Butter",
+            "Shallots",
+            "Red wine"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "1 hour",
+        "instructions": [
+            "Season and roast the pigeon.",
+            "Prepare a truffle sauce with butter, shallots, and red wine.",
+            "Serve the pigeon with the sauce."
+        ],
+        "image_link": "https://example.com/images/pigeon_with_truffle.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 17,
+        "chef_id": 5,
+        "name": "Lobster with Saffron",
+        "description": "Lobster cooked with saffron for a rich flavor.",
+        "ingredients": [
+            "Lobster",
+            "Saffron",
+            "Butter",
+            "Garlic",
+            "White wine"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "20 minutes",
+        "instructions": [
+            "Sear the lobster in butter.",
+            "Add garlic, white wine, and saffron.",
+            "Simmer until the lobster is cooked through."
+        ],
+        "image_link": "https://example.com/images/lobster_with_saffron.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 18,
+        "chef_id": 5,
+        "name": "Foie Gras",
+        "description": "A classic French pâté made from duck liver.",
+        "ingredients": [
+            "Foie gras",
+            "Salt",
+            "Pepper",
+            "Armagnac"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "instructions": [
+            "Season foie gras with salt and pepper.",
+            "Sear in a hot pan and deglaze with Armagnac.",
+            "Serve as a pâté or mousse."
+        ],
+        "image_link": "https://example.com/images/foie_gras_duck.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 19,
+        "chef_id": 5,
+        "name": "Crab Salad",
+        "description": "A fresh and light salad made with crab meat.",
+        "ingredients": [
+            "Crab meat",
+            "Mixed greens",
+            "Avocado",
+            "Lemon vinaigrette"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "5 minutes",
+        "instructions": [
+            "Combine crab meat with mixed greens and avocado.",
+            "Dress with lemon vinaigrette."
+        ],
+        "image_link": "https://example.com/images/crab_salad.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 20,
+        "chef_id": 6,
+        "name": "Ravioli of Langoustine",
+        "description": "Delicate ravioli filled with langoustine meat.",
+        "ingredients": [
+            "Ravioli dough",
+            "Langoustines",
+            "Ricotta",
+            "Egg yolks",
+            "Herbs"
+        ],
+        "prep_time": "1 hour",
+        "cook_time": "5 minutes",
+        "instructions": [
+            "Prepare the ravioli dough and filling.",
+            "Assemble ravioli and cook in boiling water.",
+            "Serve with a light sauce."
+        ],
+        "image_link": "https://example.com/images/ravioli_of_langoustine.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 21,
+        "chef_id": 6,
+        "name": "Duck Breast with Beetroots",
+        "description": "Seared duck breast served with roasted beetroots.",
+        "ingredients": [
+            "Duck breast",
+            "Beetroots",
+            "Olive oil",
+            "Balsamic vinegar"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "30 minutes",
+        "instructions": [
+            "Season and sear the duck breast.",
+            "Roast beetroots with olive oil and balsamic vinegar.",
+            "Serve the duck breast with beetroots."
+        ],
+        "image_link": "https://example.com/images/duck_breast_with_beetroots.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 22,
+        "chef_id": 6,
+        "name": "Miso Soup",
+        "description": "A savory and soothing soup made with miso paste.",
+        "ingredients": [
+            "Miso paste",
+            "Tofu",
+            "Seaweed",
+            "Green onions"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "5 minutes",
+        "instructions": [
+            "Dissolve miso paste in hot water.",
+            "Add tofu and seaweed.",
+            "Garnish with green onions and serve."
+        ],
+        "image_link": "https://example.com/images/miso_soup.jpg",
+        "ratings": 4.6
+    },
+    {
+        "id": 23,
+        "chef_id": 6,
+        "name": "Rose Water Macarons",
+        "description": "Delicate macarons flavored with rose water.",
+        "ingredients": [
+            "Almond flour",
+            "Egg whites",
+            "Sugar",
+            "Rose water",
+            "Butter"
+        ],
+        "prep_time": "1 hour",
+        "cook_time": "20 minutes",
+        "instructions": [
+            "Prepare the macaron batter and pipe onto baking sheets.",
+            "Bake until crisp and dry.",
+            "Fill with rose water buttercream."
+        ],
+        "image_link": "https://example.com/images/rose_water_macarons.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 24,
+        "chef_id": 7,
+        "name": "Beef Wellington",
+        "description": "Beef tenderloin wrapped in puff pastry with a mushroom duxelles.",
+        "ingredients": [
+            "Beef tenderloin",
+            "Puff pastry",
+            "Mushrooms",
+            "Prosciutto",
+            "Dijon mustard"
+        ],
+        "prep_time": "1 hour",
+        "cook_time": "45 minutes",
+        "instructions": [
+            "Sear the beef and spread with Dijon mustard.",
+            "Prepare mushroom duxelles and wrap the beef in prosciutto and pastry.",
+            "Bake until the pastry is golden and beef is cooked to preference."
+        ],
+        "image_link": "https://example.com/images/beef_wellington.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 25,
+        "chef_id": 7,
+        "name": "Lamb Rack",
+        "description": "Roasted lamb rack with herbs and spices.",
+        "ingredients": [
+            "Lamb rack",
+            "Rosemary",
+            "Garlic",
+            "Olive oil",
+            "Salt"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "25 minutes",
+        "instructions": [
+            "Season the lamb with rosemary, garlic, and salt.",
+            "Roast until cooked to desired doneness."
+        ],
+        "image_link": "https://example.com/images/lamb_rack.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 26,
+        "chef_id": 7,
+        "name": "Crispy Duck",
+        "description": "Duck with a crispy skin, served with a flavorful glaze.",
+        "ingredients": [
+            "Duck",
+            "Soy sauce",
+            "Honey",
+            "Ginger",
+            "Garlic"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "45 minutes",
+        "instructions": [
+            "Season and roast the duck.",
+            "Prepare a glaze with soy sauce, honey, ginger, and garlic.",
+            "Brush the duck with glaze and roast until crispy."
+        ],
+        "image_link": "https://example.com/images/crispy_duck.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 27,
+        "chef_id": 7,
+        "name": "Potato Gratin",
+        "description": "Creamy and cheesy potato gratin.",
+        "ingredients": [
+            "Potatoes",
+            "Heavy cream",
+            "Gruyère cheese",
+            "Garlic",
+            "Butter"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "1 hour",
+        "instructions": [
+            "Layer thinly sliced potatoes with cream, cheese, and garlic.",
+            "Bake until the top is golden and bubbly."
+        ],
+        "image_link": "https://example.com/images/potato_gratin.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 28,
+        "chef_id": 8,
+        "name": "Foie Gras Terrine",
+        "description": "A luxurious terrine made from foie gras.",
+        "ingredients": [
+            "Foie gras",
+            "Armagnac",
+            "Salt",
+            "Pepper"
+        ],
+        "prep_time": "1 hour",
+        "cook_time": "2 hours",
+        "instructions": [
+            "Prepare and season foie gras.",
+            "Cook in a terrine mold and chill until set."
+        ],
+        "image_link": "https://example.com/images/foie_gras_terrine.jpg",
+        "ratings": 4.9
+    },
+    {
+        "id": 29,
+        "chef_id": 8,
+        "name": "Beef Bourguignon",
+        "description": "A hearty stew of beef braised in red wine.",
+        "ingredients": [
+            "Beef",
+            "Red wine",
+            "Carrots",
+            "Onions",
+            "Garlic",
+            "Bacon"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "3 hours",
+        "instructions": [
+            "Brown beef and bacon in a pot.",
+            "Add vegetables and red wine.",
+            "Simmer until beef is tender."
+        ],
+        "image_link": "https://example.com/images/beef_bourguignon.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 30,
+        "chef_id": 8,
+        "name": "Chicken Fricassée",
+        "description": "A creamy chicken stew with mushrooms and onions.",
+        "ingredients": [
+            "Chicken",
+            "Mushrooms",
+            "Onions",
+            "Cream",
+            "White wine"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "45 minutes",
+        "instructions": [
+            "Brown chicken and set aside.",
+            "Sauté mushrooms and onions, then add cream and wine.",
+            "Return chicken to the pot and simmer until cooked through."
+        ],
+        "image_link": "https://example.com/images/chicken_fricassee.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 31,
+        "chef_id": 8,
+        "name": "Apple Tarte Tatin",
+        "description": "An upside-down caramelized apple tart.",
+        "ingredients": [
+            "Apples",
+            "Sugar",
+            "Butter",
+            "Puff pastry"
+        ],
+        "prep_time": "30 minutes",
+        "cook_time": "45 minutes",
+        "instructions": [
+            "Caramelize sugar and butter in a pan.",
+            "Add apple slices and cook until tender.",
+            "Cover with puff pastry and bake until golden."
+        ],
+        "image_link": "https://example.com/images/apple_tarte_tatin.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 32,
+        "chef_id": 9,
+        "name": "Crispy Rice Cake",
+        "description": "A crunchy and savory rice cake.",
+        "ingredients": [
+            "Rice",
+            "Salt",
+            "Oil",
+            "Soy sauce"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "15 minutes",
+        "instructions": [
+            "Cook rice and press into a cake shape.",
+            "Fry until crispy and golden.",
+            "Serve with soy sauce."
+        ],
+        "image_link": "https://example.com/images/crispy_rice_cake.jpg",
+        "ratings": 4.6
+    },
+    {
+        "id": 33,
+        "chef_id": 9,
+        "name": "Beet Salad",
+        "description": "A fresh salad with roasted beets and greens.",
+        "ingredients": [
+            "Beets",
+            "Mixed greens",
+            "Goat cheese",
+            "Walnuts",
+            "Vinaigrette"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "30 minutes",
+        "instructions": [
+            "Roast beets until tender.",
+            "Combine with mixed greens, goat cheese, and walnuts.",
+            "Dress with vinaigrette."
+        ],
+        "image_link": "https://example.com/images/beet_salad.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 34,
+        "chef_id": 9,
+        "name": "Miso Glazed Eggplant",
+        "description": "Eggplant glazed with a savory miso sauce.",
+        "ingredients": [
+            "Eggplant",
+            "Miso paste",
+            "Sugar",
+            "Soy sauce",
+            "Sesame seeds"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "instructions": [
+            "Slice eggplant and brush with miso glaze.",
+            "Roast until tender and caramelized.",
+            "Sprinkle with sesame seeds before serving."
+        ],
+        "image_link": "https://example.com/images/miso_glazed_eggplant.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 35,
+        "chef_id": 9,
+        "name": "Quinoa and Vegetables",
+        "description": "A healthy and nutritious quinoa salad with mixed vegetables.",
+        "ingredients": [
+            "Quinoa",
+            "Bell peppers",
+            "Cucumbers",
+            "Tomatoes",
+            "Lemon juice"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "15 minutes",
+        "instructions": [
+            "Cook quinoa according to package instructions.",
+            "Combine with chopped vegetables and dress with lemon juice."
+        ],
+        "image_link": "https://example.com/images/quinoa_and_vegetables.jpg",
+        "ratings": 4.6
+    },
+    {
+        "id": 36,
+        "chef_id": 10,
+        "name": "Crab Salad",
+        "description": "A fresh and light salad with crab meat.",
+        "ingredients": [
+            "Crab meat",
+            "Mixed greens",
+            "Avocado",
+            "Citrus dressing"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "5 minutes",
+        "instructions": [
+            "Combine crab meat with mixed greens and avocado.",
+            "Dress with citrus dressing."
+        ],
+        "image_link": "https://example.com/images/crab_salad.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 37,
+        "chef_id": 10,
+        "name": "Wagyu Beef",
+        "description": "Tender and marbled Wagyu beef cooked to perfection.",
+        "ingredients": [
+            "Wagyu beef",
+            "Salt",
+            "Pepper",
+            "Olive oil"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "15 minutes",
+        "instructions": [
+            "Season the Wagyu beef with salt and pepper.",
+            "Sear in olive oil until cooked to desired doneness."
+        ],
+        "image_link": "https://example.com/images/wagyu_beef.jpg",
+        "ratings": 4.8
+    },
+    {
+        "id": 38,
+        "chef_id": 10,
+        "name": "Crispy Skin Chicken",
+        "description": "Chicken with a perfectly crispy skin and juicy interior.",
+        "ingredients": [
+            "Chicken",
+            "Salt",
+            "Pepper",
+            "Olive oil"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "30 minutes",
+        "instructions": [
+            "Season chicken with salt and pepper.",
+            "Roast in olive oil until the skin is crispy and chicken is cooked through."
+        ],
+        "image_link": "https://example.com/images/crispy_skin_chicken.jpg",
+        "ratings": 4.7
+    },
+    {
+        "id": 39,
+        "chef_id": 10,
+        "name": "Vanilla Bean Panna Cotta",
+        "description": "A creamy Italian dessert flavored with vanilla beans.",
+        "ingredients": [
+            "Heavy cream",
+            "Sugar",
+            "Vanilla beans",
+            "Gelatin"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "2 hours (chilling)",
+        "instructions": [
+            "Heat cream with sugar and vanilla beans.",
+            "Mix in gelatin and pour into molds.",
+            "Chill until set."
+        ],
+        "image_link": "https://example.com/images/vanilla_bean_panna_cotta.jpg",
+        "ratings": 4.8
+    }
+]
