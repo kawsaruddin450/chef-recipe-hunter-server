@@ -15,6 +15,12 @@ app.get('/chefs', (req, res)=> {
     res.send(chefs);
 })
 
+app.get('/chef/:id', (req, res)=>{
+    const id = parseInt(req.params.id);
+    const chef = chefs.find(ch => ch.id === id);
+    res.send(chef);
+})
+
 app.get('/recipes', (req, res)=> {
     res.send(recipes);
 })
