@@ -1,47 +1,45 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
-const cors = require('cors');
-const port = process.env.PORT || 3000
-const chefs = require('./data/chefs.json');
-const recipes = require('./data/recipes.json');
-const corsConfig = {
-    origin: true,
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-};
+const port = 6969
+const chef = require('./data/chefs.json')
+const recipe = require('./data/recipes.json')
 
-app.use("*", cors(corsConfig));
+
+app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+  res.send('server 6969 is working')
 })
 
-app.get('/chefs', (req, res) => {
-    res.send(chefs);
+app.get('/chefs', (req,res)=>{
+    res.send(chef)
 })
 
-app.get('/chef/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const chef = chefs.find(ch => ch.id === id);
-    res.send(chef);
+
+app.get('/chef/:id', (req,res)=>{
+   const getId = req.params.id
+   const id=parseInt(getId);
+  const selectedchef = chef.filter(c => c.id === id);
+
+  res.send(selectedchef)
+});
+
+app.get('/recipes', (req,res)=>{
+  res.send(recipe)
 })
 
-app.get('/recipes', (req, res) => {
-    res.send(recipes);
-})
+ app.get('/chefs/:id', (req,res)=>{
+   const recipeID = req.params.id
+   const id=parseInt(recipeID);
+   const selectedRecipe = recipe.filter(c => parseInt(c.chef_id) === id)
+  res.send(selectedRecipe)  
+});
+// 
+ 
 
-app.get('/recipes/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const recipe = recipes.find(r => r.id === id);
-    res.send(recipe);
-})
-app.get('/chefs/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const chefRecipes = recipes.filter(r => r.chef_id === id);
-    res.send(chefRecipes);
-})
+
 
 app.listen(port, () => {
-    console.log(`Chef recipe hunter server is running on server: ${port}`)
+  console.log(`Example app listening on port ${port}`)
 })
-
