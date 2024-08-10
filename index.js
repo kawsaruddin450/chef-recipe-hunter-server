@@ -1,36 +1,41 @@
 const express = require('express')
 const app = express()
 const cors = require('cors');
-const port = process.env.PORT ||  3000
+const port = process.env.PORT || 3000
 const chefs = require('./data/chefs.json');
 const recipes = require('./data/recipes.json');
+const corsConfig = {
+    origin: true,
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+};
 
-app.use(cors());
+app.use("*", cors(corsConfig));
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-app.get('/chefs', (req, res)=> {
+app.get('/chefs', (req, res) => {
     res.send(chefs);
 })
 
-app.get('/chef/:id', (req, res)=>{
+app.get('/chef/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const chef = chefs.find(ch => ch.id === id);
     res.send(chef);
 })
 
-app.get('/recipes', (req, res)=> {
+app.get('/recipes', (req, res) => {
     res.send(recipes);
 })
 
-app.get('/recipes/:id', (req, res)=>{
+app.get('/recipes/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const recipe = recipes.find( r => r.id === id);
+    const recipe = recipes.find(r => r.id === id);
     res.send(recipe);
 })
-app.get('/chefs/:id', (req, res)=> {
+app.get('/chefs/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const chefRecipes = recipes.filter(r => r.chef_id === id);
     res.send(chefRecipes);
